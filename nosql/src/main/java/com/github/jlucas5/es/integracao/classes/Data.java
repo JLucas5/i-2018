@@ -5,15 +5,6 @@ public class Data {
     private String data;
     private String acuracia;
 
-    /**
-     *
-     * @param data
-     * @param acuracia
-     */
-    public Data(String data, String acuracia) {
-        this.data = data;
-        this.acuracia = acuracia;
-    }
 
     /**
      *

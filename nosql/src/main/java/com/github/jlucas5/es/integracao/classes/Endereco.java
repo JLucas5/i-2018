@@ -16,33 +16,6 @@ public class Endereco {
 
     /**
      *
-     * @param surrogateKey
-     * @param bairro
-     * @param distrito
-     * @param codigoMunicipio
-     * @param estado
-     * @param cep
-     * @param caixaPostal
-     * @param pais
-     * @param tipo
-     * @param linhaDeEndereco
-     */
-    public Endereco(String surrogateKey, String bairro, String distrito, String codigoMunicipio, String estado,
-                    String cep, String caixaPostal, String pais, String tipo, LinhaDeEndereco linhaDeEndereco) {
-        this.surrogateKey = surrogateKey;
-        this.bairro = bairro;
-        this.distrito = distrito;
-        this.codigoMunicipio = codigoMunicipio;
-        this.estado = estado;
-        this.cep = cep;
-        this.caixaPostal = caixaPostal;
-        this.pais = pais;
-        this.tipo = tipo;
-        this.linhaDeEndereco = linhaDeEndereco;
-    }
-
-    /**
-     *
      * @return
      */
     public String getSurrogateKey() {

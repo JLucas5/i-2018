@@ -5,15 +5,6 @@ public class LinhaDeEndereco {
     private String ordem;
     private String linha;
 
-    /**
-     *
-     * @param ordem
-     * @param linha
-     */
-    public LinhaDeEndereco(String ordem, String linha) {
-        this.ordem = ordem;
-        this.linha = linha;
-    }
 
     /**
      *

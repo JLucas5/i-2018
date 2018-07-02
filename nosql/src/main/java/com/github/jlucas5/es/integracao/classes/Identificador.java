@@ -13,31 +13,6 @@ public class Identificador {
     private Certidao certidao;
     private TituloEleitoral tituloEleitoral;
 
-    /**
-     *
-     * @param surrogateKey
-     * @param designacao
-     * @param area
-     * @param emissor
-     * @param data
-     * @param tipo
-     * @param ctps
-     * @param certidao
-     * @param tituloEleitoral
-     */
-    public Identificador(String surrogateKey, String designacao, String area, String emissor, String data, String tipo,
-                         CTPS ctps, Certidao certidao, TituloEleitoral tituloEleitoral) {
-        this.surrogateKey = surrogateKey;
-        this.designacao = designacao;
-        this.area = area;
-        this.emissor = emissor;
-        this.data = data;
-        this.tipo = tipo;
-        this.ctps = ctps;
-        this.certidao = certidao;
-        this.tituloEleitoral = tituloEleitoral;
-    }
-
     public String getSurrogateKey() {
         return surrogateKey;
     }

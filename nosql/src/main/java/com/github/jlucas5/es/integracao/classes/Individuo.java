@@ -9,7 +9,13 @@ public class Individuo {
     private Identificador identificador;
     private Vinculo vinculo;
 
-    public Individuo() {
+    public Individuo(){
+        this.surrogateKey = "";
+        this.endereco = new Endereco();
+        this.dadoDemografico = new DadoDemografico();
+        this.nome = new Nome();
+        this.identificador = new Identificador();
+        this.vinculo = new Vinculo();
     }
 
     /**
@@ -21,6 +27,7 @@ public class Individuo {
      * @param identificador
      * @param vinculo
      */
+
     public Individuo(String surrogateKey, Endereco endereco, DadoDemografico dadoDemografico, Nome nome,
                      Identificador identificador, Vinculo vinculo) {
         this.surrogateKey = surrogateKey;

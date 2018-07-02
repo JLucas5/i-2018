@@ -6,17 +6,6 @@ public class Vinculo {
     private String dataInicio;
     private String dataFinal;
 
-    /**
-     *
-     * @param relacionamento
-     * @param dataInicio
-     * @param dataFinal
-     */
-    public Vinculo(String relacionamento, String dataInicio, String dataFinal) {
-        this.relacionamento = relacionamento;
-        this.dataInicio = dataInicio;
-        this.dataFinal = dataFinal;
-    }
 
     public String getRelacionamento() {
         return relacionamento;

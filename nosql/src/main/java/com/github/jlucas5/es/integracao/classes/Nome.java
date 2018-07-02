@@ -6,40 +6,18 @@ public class Nome {
 
     private String surrogateKey;
     private List<String> titulos;
-    private List<String> nomes;
+    private String nomes;
     private List<String> sobrenomes;
     private List<String> sufixos;
     private String preferido;
     private String usoCondicional;
 
-    /**
-     *
-     * @param surrogateKey
-     * @param titulos
-     * @param nomes
-     * @param sobrenomes
-     * @param sufixos
-     * @param preferido
-     * @param usoCondicional
-     * @param utilizacao
-     * @param representacao
-     */
-    public Nome(String surrogateKey, List<String> titulos, List<String> nomes, List<String> sobrenomes,
-                List<String> sufixos, String preferido, String usoCondicional, Utilizacao utilizacao,
-                Representacao representacao) {
-        this.surrogateKey = surrogateKey;
-        this.titulos = titulos;
-        this.nomes = nomes;
-        this.sobrenomes = sobrenomes;
-        this.sufixos = sufixos;
-        this.preferido = preferido;
-        this.usoCondicional = usoCondicional;
-        this.utilizacao = utilizacao;
-        this.representacao = representacao;
-    }
-
     private Utilizacao utilizacao;
     private Representacao representacao;
+
+    public Nome(){
+
+    }
 
     public String getSurrogateKey() {
         return surrogateKey;
@@ -57,12 +35,12 @@ public class Nome {
         this.titulos = titulos;
     }
 
-    public List<String> getNomes() {
+    public String getNomes() {
         return nomes;
     }
 
     public void setNomes(String nomes) {
-        this.nomes.add(nomes);
+        this.nomes = nomes;
     }
 
     public List<String> getSobrenomes() {

@@ -16,36 +16,10 @@ public class DadoDemografico {
 
     private Data data;
     private Nacionalidade nacionalidade;
-    /**
-     *
-     * @param sexo
-     * @param nomeMae
-     * @param nomePai
-     * @param situacaoFamiliar
-     * @param raca
-     * @param comentario
-     * @param fonteNotObito
-     * @param nascPluralidade
-     * @param nascOrdem
-     * @param nascSeguimento
-     * @param data
-     * @param nacionalidade
-     */
-    public DadoDemografico(String sexo, String nomeMae, String nomePai, String situacaoFamiliar, String raca,
-                           String comentario, String fonteNotObito, String nascPluralidade, String nascOrdem,
-                           String nascSeguimento, Data data, Nacionalidade nacionalidade) {
-        Sexo = sexo;
-        this.nomeMae = nomeMae;
-        this.nomePai = nomePai;
-        this.situacaoFamiliar = situacaoFamiliar;
-        this.raca = raca;
-        this.comentario = comentario;
-        this.fonteNotObito = fonteNotObito;
-        this.nascPluralidade = nascPluralidade;
-        this.nascOrdem = nascOrdem;
-        this.nascSeguimento = nascSeguimento;
-        this.data = data;
-        this.nacionalidade = nacionalidade;
+
+    public DadoDemografico(){
+        this.data = new Data();
+        this.nacionalidade= new Nacionalidade();
     }
 
     /**

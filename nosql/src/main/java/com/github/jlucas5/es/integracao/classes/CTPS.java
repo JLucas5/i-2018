@@ -5,15 +5,6 @@ public class CTPS {
     private String serie;
     private String estado;
 
-    /**
-     *
-     * @param serie
-     * @param estado
-     */
-    public CTPS(String serie, String estado) {
-        this.serie = serie;
-        this.estado = estado;
-    }
 
     /**
      *

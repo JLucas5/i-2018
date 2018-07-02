@@ -7,19 +7,6 @@ public class Nacionalidade {
     private String pais;
     private String dataDeEntradaPais;
 
-    /**
-     *
-     * @param municipio
-     * @param estado
-     * @param pais
-     * @param dataDeEntradaPais
-     */
-    public Nacionalidade(String municipio, String estado, String pais, String dataDeEntradaPais) {
-        this.municipio = municipio;
-        this.estado = estado;
-        this.pais = pais;
-        this.dataDeEntradaPais = dataDeEntradaPais;
-    }
 
     public String getMunicipio() {
         return municipio;

@@ -4,15 +4,6 @@ public class TituloEleitoral {
     private String secao;
     private String zona;
 
-    /**
-     *
-     * @param secao
-     * @param zona
-     */
-    public TituloEleitoral(String secao, String zona) {
-        this.secao = secao;
-        this.zona = zona;
-    }
 
     public String getSecao() {
         return secao;

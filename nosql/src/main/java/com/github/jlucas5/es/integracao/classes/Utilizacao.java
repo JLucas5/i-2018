@@ -6,17 +6,6 @@ public class Utilizacao {
     private String dataInicial;
     private String dataFinal;
 
-    /**
-     *
-     * @param uso
-     * @param dataInicial
-     * @param dataFinal
-     */
-    public Utilizacao(String uso, String dataInicial, String dataFinal) {
-        this.uso = uso;
-        this.dataInicial = dataInicial;
-        this.dataFinal = dataFinal;
-    }
 
     public String getUso() {
         return uso;
